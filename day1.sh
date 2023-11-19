@@ -11,7 +11,7 @@
 
 # Task 2: create a bash script that uses echo to print a message of my choice.
 echo 'Day 1 of Bash Scripting'
-echo Today we will cover Basics of Bash scripting
+echo Today i will cover Basics of Bash scripting
 echo "Let's Get started 💪"
 echo "------------------------------"
 
@@ -94,6 +94,9 @@ echo "Current directory: $PWD"
 
 # $SHELL:Represents the default shell of the user.
 echo "Default shell: $SHELL"
+
+# $BASH:Represents the path to the Bash executable.
+echo "Bash : $BASH"
 
 # $BASH_VERSION:Represents the version of Bash.
 echo "Bash version: $BASH_VERSION"
